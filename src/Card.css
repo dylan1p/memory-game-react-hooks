@@ -1,0 +1,21 @@
+.card-wrapper {
+    position: relative;
+}
+
+.card {
+    border-radius: 5px;
+    margin: 2.5px;
+    cursor: pointer;
+    will-change: transform, opacity;
+    text-align: center;
+}
+
+.card.front {
+    position: absolute;
+    top: 0;
+}
+
+.card.back {
+    background-image: url('https://images.unsplash.com/photo-1533628635777-112b2239b1c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+    opacity: 0.7;
+}
